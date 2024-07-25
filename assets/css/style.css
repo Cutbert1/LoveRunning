@@ -118,6 +118,7 @@
      height: 90vw;
      width: 90vw;
      margin: 20px;
+
      /* Makes the square raduis into a circle */
      border-radius: 50%;
      max-width: 300px;
@@ -130,6 +131,31 @@
      justify-content: center;
  }
 
+/* Meet Up Times Section */
+ #times {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the avaialble space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Create a grid of meet up times dives over the background image */
+    border: 2px solid white;
+ }
+
+ #times h3 {
+    /* Override the settings color set in general style */
+    color: #fafafa;
+ }
+ 
  hr {
      border-top: 1px solid #3a3a3a;
      margin: 5px 0;
@@ -159,7 +185,7 @@
  #cover-text>h2 {
      color: #ffffff;
  }
-
+ 
  /* Footer */
  #social-networks {
      text-align: center;
