@@ -83,7 +83,7 @@
  }
 
  .nav-toggle-label {
-     font-size: 2rm;
+     font-size: 2rem;
  }
 
  /* Main content */
@@ -117,7 +117,7 @@
 
  #signup-form {
     color: #ffffff;
-    background-color: rgba(60 60 60 0.6);
+    background-color: rgba(60 60 60 .6);
     padding: 30px;
  }
 
